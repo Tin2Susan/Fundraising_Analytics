@@ -1,0 +1,8 @@
+supporter_id,name,email,signup_channel,signup_date,location
+101,Alice,alice@email.com,Facebook,2022-01-15,VIC
+102,Bob,bob@email.com,Website,2022-02-01,NSW
+103,Charlie,charlie@email.com,Event,2022-02-10,VIC
+104,Diana,diana@email.com,Instagram,2022-03-05,QLD
+105,Ethan,ethan@email.com,Website,2022-04-18,SA
+106,Farah,farah@email.com,Facebook,2022-05-10,WA
+107,George,george@email.com,Referral,2022-06-01,NSW

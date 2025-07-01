@@ -1,0 +1,64 @@
+version: 2
+
+sources:
+  - name: oxfam
+    database: OXFAM_ANALYTICS
+    schema: PUBLIC
+    tables:
+      - name: campaigns
+        description: Campaign metadata including goals, dates, and target amount.
+
+      - name: supporters
+        description: Supporter information including contact and signup details.
+
+      - name: donations
+        description: Donations made by supporters, linked to campaigns.
+
+models:
+  - name: stg_campaigns
+    description: Staging model for campaign data from source table.
+    columns:
+      - name: CAMPAIGN_ID
+        description: Unique ID of the campaign.
+      - name: CAMPAIGN_NAME
+        description: Name of the campaign.
+      - name: CAMPAIGN_TYPE
+        description: Category/type of campaign.
+      - name: START_DATE
+        description: Campaign start date.
+      - name: END_DATE
+        description: Campaign end date.
+      - name: TARGET_AMOUNT
+        description: Fundraising target amount.
+
+  - name: stg_supporters
+    description: Staging model for supporter data from source table.
+    columns:
+      - name: SUPPORTER_ID
+        description: Unique ID of the supporter.
+      - name: NAME
+        description: Full name of the supporter.
+      - name: EMAIL
+        description: Email address.
+      - name: SIGNUP_CHANNEL
+        description: Channel through which the supporter signed up.
+      - name: SIGNUP_DATE
+        description: Date of signup.
+      - name: LOCATION
+        description: Geographic location of the supporter.
+
+  - name: stg_donations
+    description: Staging model for donation transactions.
+    columns:
+      - name: DONATION_ID
+        description: Unique ID of the donation.
+      - name: SUPPORTER_ID
+        description: ID of the supporter who made the donation.
+      - name: DONATION_DATE
+        description: Date the donation was made.
+      - name: AMOUNT
+        description: Amount of the donation.
+      - name: CAMPAIGN
+        description: Name of the campaign the donation is tied to.
+      - name: DONATION_TYPE
+        description: Whether the donation was recurring or one-time.

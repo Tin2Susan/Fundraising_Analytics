@@ -1,0 +1,6 @@
+campaign_id,campaign_name,campaign_type,start_date,end_date,target_amount
+101,Clean Water Drive,Water,2023-01-01,2023-06-30,50000
+102,Health Aid,Health,2023-02-15,2023-08-31,75000
+103,Education for All,Education,2023-03-01,2023-09-30,60000
+104,Emergency Relief,Relief,2023-04-10,2023-07-15,90000
+105,Climate Action,Environment,2023-05-05,2023-12-31,85000

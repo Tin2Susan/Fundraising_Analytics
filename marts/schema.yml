@@ -1,0 +1,63 @@
+version: 2
+
+models:
+  - name: fct_supporter_donations
+    description: |
+      This model joins supporter, donation, and campaign data to provide a complete view of individual contributions.
+      It can be used to analyze supporter behavior, campaign effectiveness, and donation trends.
+    columns:
+      - name: donation_id
+        description: Unique identifier for each donation.
+        tests:
+          - not_null
+          - unique
+
+      - name: supporter_id
+        description: Unique identifier for each supporter.
+        tests:
+          - not_null
+
+      - name: campaign_id
+        description: Unique identifier for each campaign.
+        tests:
+          - not_null
+
+      - name: donation_amount
+        description: Amount donated in the transaction.
+        tests:
+          - not_null
+
+      - name: donation_date
+        description: Date the donation was made.
+        tests:
+          - not_null
+
+      - name: campaign_name
+        description: Name of the campaign the donation contributed to.
+
+      - name: campaign_start_date
+        description: Date the campaign started.
+
+      - name: campaign_end_date
+        description: Date the campaign ended.
+
+      - name: campaign_type
+        description: Type of campaign (e.g., Email, Social Media, Events).
+
+      - name: supporter_name
+        description: Full name of the supporter.
+
+      - name: email
+        description: Supporter email address.
+
+      - name: age
+        description: Age of the supporter.
+
+      - name: gender
+        description: Gender of the supporter.
+
+      - name: location
+        description: Supporter's geographic location.
+
+      - name: supporter_segment
+        description: Segment or category assigned to supporter based on behavior or demographics.

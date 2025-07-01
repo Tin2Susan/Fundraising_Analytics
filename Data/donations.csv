@@ -1,0 +1,6 @@
+donation_id,supporter_id,donation_date,amount,campaign,donation_type
+501,1001,2023-05-01,50.0,EndHunger,One-time
+502,1002,2023-05-15,75.0,ClimateAction,Recurring
+503,1001,2024-01-20,100.0,EndHunger,One-time
+504,1003,2024-03-10,40.0,HealthForAll,One-time
+505,1005,2024-04-18,120.0,ClimateAction,Recurring
