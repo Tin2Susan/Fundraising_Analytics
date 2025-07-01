@@ -60,6 +60,32 @@ Fundraising-Analytics/
 └── marts/
 ├── mart_fundraising_summary.sql
 └── ...
+Fundraising-Analytics/
+│
+├── README.md
+├── Fundraising_Analytics_Dashboard.pbix
+├── dashboard_preview.png
+│
+├── data/
+│   ├── donations_sample.csv
+│   ├── campaigns_sample.csv
+│   └── supporters_sample.csv
+│
+├── snowflake_sql/
+│   ├── create_tables.sql
+│   ├── insert_data.sql
+│   └── data_cleaning_queries.sql
+│
+└── dbt_models/
+    ├── dbt_project.yml
+    ├── staging/
+    │   ├── stg_donations.sql
+    │   ├── stg_campaigns.sql
+    │   └── stg_supporters.sql
+    │
+    └── marts/
+        ├── mart_fundraising_summary.sql
+        └── ...
 
 
 ---
