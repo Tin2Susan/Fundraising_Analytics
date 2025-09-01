@@ -35,17 +35,17 @@ It demonstrates **end-to-end data pipeline skills**, from raw CSV ingestion to s
 
 ##  Workflow
 
-1️⃣ **Data Preparation in Snowflake**
+1️ **Data Preparation in Snowflake**
 - Uploaded CSVs into Snowflake tables.
 - Cleaned and validated data with SQL scripts.
 - Established a **star schema** linking donations (fact) with campaigns and supporters (dimensions).
 
-2️⃣ **Modelling with dbt**
+2️ **Modelling with dbt**
 - Created `staging` models for clean, consistent column structures.
 - Built `marts` models for summary and reporting layers.
 - Added `schema.yml` for documentation and testing.
 
-3️⃣ **Visualization with Power BI**
+3️ **Visualization with Power BI**
 - Connected to Snowflake tables for live analysis.
 - Created interactive dashboards with:
    - KPIs.
@@ -54,10 +54,10 @@ It demonstrates **end-to-end data pipeline skills**, from raw CSV ingestion to s
 
 ---
 
-## ✨ Learning Outcomes
+## Learning Outcomes
 
-✅ Practiced **cloud data warehousing with Snowflake** for structured data storage.  
-✅ Applied **dbt modelling principles for clear, scalable pipelines.**  
-✅ Built a **Power BI dashboard aligned with stakeholder goals in a fundraising scenario.**  
+Practiced **cloud data warehousing with Snowflake** for structured data storage.  
+Applied **dbt modelling principles for clear, scalable pipelines.**  
+Built a **Power BI dashboard aligned with stakeholder goals in a fundraising scenario.**  
 ✅ Learned practical data quality validation, joins, and testing methods.  
 ✅ Developed **GitHub documentation and clean project structuring** for professional portfolio presentation.
