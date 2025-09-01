@@ -1,18 +1,18 @@
 # Fundraising Analytics Dashboard
 
-## 📊 Project Overview
+##  Project Overview
 
 This project analyzes **donations and campaign performance for a fundraising scenario**, using:
 
-✅ **Snowflake** for structured cloud data preparation and storage.  
-✅ **dbt (Data Build Tool)** for modular, testable transformations and star schema modelling.  
-✅ **Power BI** for interactive dashboards with clear KPI insights.
+ **Snowflake** for structured cloud data preparation and storage.  
+ **dbt (Data Build Tool)** for modular, testable transformations and star schema modelling.  
+ **Power BI** for interactive dashboards with clear KPI insights.
 
 It demonstrates **end-to-end data pipeline skills**, from raw CSV ingestion to structured modelling and stakeholder-ready visualization for non-profit fundraising optimization.
 
 ---
 
-## 🛠️ Tools & Technologies
+##  Tools & Technologies
 
 - **Power BI**: Interactive dashboard building.
 - **Snowflake**: Cloud data warehousing, SQL-based data prep, and star schema creation.
@@ -23,17 +23,17 @@ It demonstrates **end-to-end data pipeline skills**, from raw CSV ingestion to s
 
 ---
 
-## 📈 Key Features
+##  Key Features
 
-✅ **KPI Cards**: Total Donations, Average Donation, Donation Count.  
-✅ **Donations vs. Target Amount by Campaign**: Performance tracking against goals.  
-✅ **Donation Trends**: Monthly donations over time.  
-✅ **Donation Type Breakdown**: Recurring vs. One-time donations.  
-✅ **Clean Star Schema**: For scalable reporting and efficiency in Power BI.
+ **KPI Cards**: Total Donations, Average Donation, Donation Count.  
+ **Donations vs. Target Amount by Campaign**: Performance tracking against goals.  
+ **Donation Trends**: Monthly donations over time.  
+ **Donation Type Breakdown**: Recurring vs. One-time donations.  
+ **Clean Star Schema**: For scalable reporting and efficiency in Power BI.
 
 ---
 
-## 🚀 Workflow
+##  Workflow
 
 1️⃣ **Data Preparation in Snowflake**
 - Uploaded CSVs into Snowflake tables.
