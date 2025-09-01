@@ -59,5 +59,5 @@ It demonstrates **end-to-end data pipeline skills**, from raw CSV ingestion to s
 Practiced **cloud data warehousing with Snowflake** for structured data storage.  
 Applied **dbt modelling principles for clear, scalable pipelines.**  
 Built a **Power BI dashboard aligned with stakeholder goals in a fundraising scenario.**  
-✅ Learned practical data quality validation, joins, and testing methods.  
-✅ Developed **GitHub documentation and clean project structuring** for professional portfolio presentation.
+Learned practical data quality validation, joins and testing methods.  
+Developed **GitHub documentation and clean project structuring** for professional portfolio presentation.
